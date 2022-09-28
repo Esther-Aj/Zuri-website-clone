@@ -1,0 +1,151 @@
+body{
+   font-family: averta, sans-serif;
+}
+.header-row img{
+    width: 135px;
+    margin-bottom: 69px;
+}
+.header-row{
+    padding: 0px 200px;
+}
+.header-row{
+    padding-top: 69px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left:320px;
+    padding-right: 320px;
+    margin: auto;
+    padding-bottom:300px;
+}
+
+.container-fluid{
+    padding:0px !important; 
+    overflow: hidden;
+}
+.hero-container{
+    background-image: url(images/hero-bg.svg);
+    background-repeat: no-repeat;
+}
+.learn{
+    color:#514949;
+    font-size: 32px;
+    font-weight:bold;
+    margin-bottom: 36px;
+    margin-top:20px;
+}
+.unlock{
+   line-height: 30px;
+}
+a{
+    text-decoration: none;
+}
+
+.lp-link{
+    color:#E7332B;
+    text-decoration: none;
+}
+.lp-link:hover{
+    color:rgb(255, 87, 87);
+}
+.lp-buttons{
+    margin-top: 92px;
+}
+p{
+    color:#514949;
+    font-size: 16px !important;
+    
+  
+}
+.btn-1, .btn-2{
+    padding: 10px 25px;
+   border:none;
+  
+}
+.btn-1{
+    background-color:#E7332B;
+    color:white;
+    margin-right: 20px;
+}
+.btn-1:hover{
+border:1px solid rgb(248, 52, 52);
+background-color: white;
+color:rgb(248, 52, 52);
+transition:0.3s ease-in-out;
+}
+.btn-2{
+    border:1px solid rgb(248, 52, 52);
+    background-color: white;
+    color:rgb(248, 52, 52);
+    
+}
+.btn-2:hover{
+    
+    background-color: rgb(248, 52, 52);
+    color:white;
+    transition:0.3s ease-in-out;
+    }
+.row-2{
+    text-align: center;
+    padding-top: 70px;
+}
+.by-zuri{
+    color:rgb(248, 52, 52);
+    font-size: 14px;  
+}
+.cater{
+    margin-bottom: 64px;
+    text-align: center;
+    line-height: 50px;
+    color:#514949;
+}
+.card-row{
+    padding:0px 100px;
+}
+
+.card-holder{
+    background-color: rgb(255, 248, 248);
+    padding:40px;
+}
+.card-holder img{
+    margin-bottom: 50px;
+}
+.card-holder p{
+    margin-bottom: 25px;
+}
+.red-link{
+    color:rgb(248, 52, 52);
+}
+
+@media screen and (max-width:1200px){
+    .header-row{
+        padding-left:200px;
+        padding-right: 200px; 
+    }
+}
+@media screen and (max-width:1000px){
+    .header-row{
+        padding-left:100px;
+        padding-right: 100px; 
+    }
+}
+@media screen and (max-width:760px){
+    .header-row{
+        padding-left:10px;
+        padding-right: 10px; 
+    }
+    .lp-buttons{
+        display: flex;
+flex-direction: column;
+    }
+    .btn-1{
+        margin-right:15px;
+        margin-left:15px;
+        margin-bottom: 20px;
+    }
+    .header-row{
+        padding-bottom:50px;
+    }
+}
